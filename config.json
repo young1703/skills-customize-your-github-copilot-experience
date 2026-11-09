@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "fastapi-web-client",
+      "title": "Build a Web Client for FastAPI",
+      "description": "Connect a browser-based task manager to the FastAPI REST API using JavaScript fetch, JSON, and CORS.",
+      "path": "assignments/fastapi-web-client",
+      "dueDate": "2026-11-16",
+      "attachments": [
+        {
+          "name": "HTML Page",
+          "file": "index.html",
+          "type": "html"
+        },
+        {
+          "name": "CSS Stylesheet",
+          "file": "styles.css",
+          "type": "css"
+        },
+        {
+          "name": "JavaScript Starter",
+          "file": "app.js",
+          "type": "javascript"
+        }
+      ]
     }
   ]
 }

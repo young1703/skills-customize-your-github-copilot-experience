@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Study Tasks</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="page-header">
+      <p class="eyebrow">STUDY TOOLS / TASK MANAGER</p>
+      <h1>Study Tasks</h1>
+      <p class="intro">Keep your next steps in view.</p>
+    </header>
+
+    <main>
+      <form id="task-form" class="task-form">
+        <label for="task-title">New task</label>
+        <div class="form-controls">
+          <input
+            id="task-title"
+            name="title"
+            type="text"
+            maxlength="120"
+            placeholder="What needs to get done?"
+            required
+          />
+          <button type="submit">Add task</button>
+        </div>
+      </form>
+
+      <section class="task-section" aria-labelledby="task-heading">
+        <div class="section-heading">
+          <h2 id="task-heading">Your list</h2>
+          <p id="status-message" role="status" aria-live="polite"></p>
+        </div>
+        <ul id="task-list" class="task-list" aria-label="Study tasks"></ul>
+      </section>
+    </main>
+  </body>
+</html>
